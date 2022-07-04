@@ -1,0 +1,61 @@
+h1 {
+    color: red;
+    background-color: blue;
+}
+
+
+header {
+    min-height: 225px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: rgb(32, 189, 201);
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.subtitle {
+    
+      font-size: 20px;
+}
+
+.main {
+    height: 300px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.error-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol li {
+    font-size: 20px;
+    padding: 4px;
+}
+
